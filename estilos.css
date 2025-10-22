@@ -1,0 +1,106 @@
+/* Fondo general y color del texto */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Párrafos */
+p {
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Imagen */
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    margin-top: 20px;
+}
+
+/* Tabla */
+table {
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: lightblue;
+    color: black;
+}
+
+tr:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+/* Lista de botones */
+.list-group {
+    margin: 40px auto;
+    width: 50%;
+}
+
+/* Video */
+video {
+    margin-top: 30px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+/* Formulario */
+form {
+    margin-top: 30px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+form input[type="submit"],
+form button {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+/* Enlace de redes */
+a {
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
